@@ -1,0 +1,35 @@
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+flex-wrap: wrap;
+    
+    align-items: center;
+}
+.first{
+
+display: flex;
+flex-direction: column;
+padding: 15px;
+
+}
+.first div:first-child{
+    background-color: rgb(227, 238, 238);
+}
+img{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+.first div:last-child{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+}
+
